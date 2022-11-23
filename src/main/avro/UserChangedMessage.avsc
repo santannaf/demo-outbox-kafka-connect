@@ -1,0 +1,19 @@
+{
+  "namespace": "web.core.user.pub",
+  "type": "record",
+  "name": "UserChangedMessage",
+  "fields": [
+    {
+      "name": "userId",
+      "type": "string"
+    },
+    {
+      "name": "userEmail",
+      "type": "string"
+    },
+    {
+      "name": "userName",
+      "type": "string"
+    }
+  ]
+}
